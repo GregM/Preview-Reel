@@ -1,0 +1,13 @@
+body {background-color:black; font-family:"lucida grande",tahoma,verdana,arial,sans-serif;}
+div#wrapper_bg {background-image:url("../images/curtains.jpg"); background-repeat:repeat-x;}
+div#wrapper {width:720px; text-align:left; margin:0 auto;}
+div#content {text-align:center; padding-top:15px;}
+div#wrapper_title {margin:0 auto; text-align:center;}
+div#title {width: 720px; margin:0 auto; height:188px; background-image:url("../images/logo_title.jpg"); background-repeat:no-repeat;}
+div#preview_title {padding-top:95px; color:white;}
+div#content a {color:gray;}
+div#nextVideo {background-color:black; padding-top:25px; text-align:center;}
+div#nextVideo a {color:gray;}
+div#socialButtons {padding-top:15px;}
+div#description {color:gray; padding-top:30px;}
+div#footer {font-size:11px; text-align:left;}

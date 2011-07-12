@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="/stylesheets/trailers.css" />
+<meta name="description" content="Watch movie trailers via YouTube">
+<meta name="keywords" content="youtube movie trailers, movie trailers, movies, gregory mazurek, youtube">
+<meta property="og:title" content="Watch Movie Trailers"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="http://previewreel.gregorymazurek.com/images/logo_title.jpg"/>
+<meta property="og:url" content="http://previewreel.gregorymazurek.com/"/>
+<meta property="og:site_name" content="Watch Movie Trailers"/>
+<script src="/javascripts/trailers.js" type="text/javascript"></script>
+<script src="http://www.google.com/jsapi?key=ABQIAAAAY4Vy1OJ9ROh5THXrRfdjMBRPshRY9-vSJHcdiwAak3YttmBeehRHCjEAUNB1VKz9mxYCsoRodkSlgA" type="text/javascript"></script>
+<script type="text/javascript">
+ google.load("swfobject", "2.1");
+ google.load("jquery", "1.4.2");
+</script>
+<title>The Preview Reel - Watch Continuous Trailers for Upcoming Movies</title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18612062-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body onLoad="getList()">
+	<div id="wrapper_title">
+		<div id="title">
+			<div id="preview_title"></div>
+		</div>
+	</div>
+	<div id="wrapper_bg">
+	<div id="wrapper">
+	 
+	 <div id="content">
+	  <div id="videoDiv">
+	   <span style="color:white;">Loading.... This might take a minute.</span>
+	  </div>
+	 </div>
+	 
+	 
+	  <div id="nextVideo">
+	  	<a href="#" onclick="userWantsNextVideo();">Play Next Preview</a>
+	  </div>
+	 
+	 <div id="description">
+	 	Watch the most recent movie trailers. Don't like this one? Scroll to the end of the video or click next.
+ 	 </div>
+	 
+	 <div id="socialButtons">
+	  <div id="fbLikeButton" style="float:left;">
+		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fm.gregorymazurek.com&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:35px;" allowTransparency="true"></iframe>
+	  </div>
+	  <div id="twTweetButton" style="float:right;">
+	    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="GregoryMazurek" data-url="http://m.gregorymazurek.com">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	  </div>
+	  <div style="clear:both;"></div>
+	 </div>
+	 
+	 <div id="footer">
+	    <a href="http://www.gregorymazurek.com"><span style="color:gray;">Brought to you by Gregory Mazurek</span></a>
+	 </div>
+	
+	</div>
+	</div>
+</body>
+</html>
